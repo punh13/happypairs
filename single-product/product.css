@@ -1,0 +1,264 @@
+.banner {
+  filter: hue-rotate(120deg);
+}
+
+.alert-modal {
+  position: fixed;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  z-index: 50;
+  background-color: purple;
+  color: #fde401;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.alert-modal.active {
+  top: 50px;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.alert-modal h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.alert-modal button {
+  background-color: transparent;
+  border: 1px solid #fde401;
+  border-radius: 3px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #fde401;
+}
+
+.product-details {
+  display: flex;
+  margin: 7rem 3rem auto 3rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.product-details__img {
+  width: 30%;
+  margin-right: 2rem;
+}
+
+.main-img {
+  width: 80%;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.small-img {
+  flex-basis: 32.5%;
+  cursor: pointer;
+}
+
+.product-details__content {
+  width: 30%;
+}
+
+.product-details__content h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.product-details__content h1 {
+  color: red;
+  font-size: 2rem;
+}
+
+.product-details__content {
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.product-features {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: space-between;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+#product-material h3,
+#product-material p {
+  margin: 0;
+  font-weight: 400;
+}
+
+#product-material h3,
+#product-size label {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#product-size select {
+  font-size: 1.2rem;
+  outline: none;
+  padding: 4px 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+#product-size select option {
+  padding: 4px 0;
+}
+
+#product-quantity h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#quantity-change {
+  display: flex;
+  gap: 10px;
+}
+
+#quantity-change h3 {
+  font-size: 1.2rem;
+}
+
+#quantity-change i {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: black;
+  padding: 0;
+}
+
+#add-to-cart-btn {
+  font-size: 1.8rem;
+  padding: 8px 12px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#add-to-cart-btn:hover {
+  transition: 0.3 ease;
+  background-color: rgb(155, 15, 155);
+}
+
+.featured-products {
+  padding: 8rem 8rem 0;
+  text-align: center;
+}
+
+.featured-products h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.featured-products__img {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 2rem;
+}
+
+.featured-products__img img {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .product-details__img {
+    width: 50%;
+  }
+  .product-details__content {
+    width: 40%;
+  }
+
+  .featured-products__img img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 950px) {
+  .product-details__img {
+    width: 60%;
+  }
+
+  .product-details__content {
+    width: 60%;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto 0;
+  }
+
+  .product-details__img {
+    margin-right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .small-img-group {
+    margin: auto;
+  }
+
+  .product-details__content {
+    width: 80%;
+  }
+
+  .product-features {
+    width: 80%;
+  }
+
+  .featured-products {
+    padding: 2rem;
+  }
+
+  .featured-products h1 {
+    font-size: 16px;
+  }
+
+  .featured-products__img {
+    gap: 20px;
+  }
+
+  #add-to-cart-btn {
+    font-size: 16px;
+  }
+
+  .alert-modal {
+    border-radius: 7px;
+    padding: 1rem;
+  }
+
+  .alert-modal h1 {
+    font-size: 16px;
+  }
+
+  .alert-modal button {
+    font-size: 12px;
+  }
+}

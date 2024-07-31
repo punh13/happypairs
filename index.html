@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HappyPairs</title>
+    <link href="https://fonts.cdnfonts.com/css/gaitera-ball" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script/redirecting.js" defer></script>
+    <script src="script/app.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <a href="index.html"
+          ><img class="logo" src="images/logo.png" alt=""
+        /></a>
+        <ul class="navbar-items">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="shop/shop.html">Shop</a></li>
+          <li><a href="blog/blog.html">Blog</a></li>
+          <li><a href="about/about.html">About</a></li>
+          <li><a href="login/login.html">Login</a></li>
+          <li>
+            <a href="cart/cart.html">Cart(<span id="cart-items">0</span>)</a>
+          </li>
+          <li onclick="myFunction()" id="close">x</li>
+        </ul>
+        <div class="navbar-mobile">
+          <a href="cart/cart.html"
+            ><i class="bi bi-bag">
+              <span id="mobile-cart-items">0</span>
+            </i></a
+          >
+          <i class="bi bi-list menu-btn"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main id="hero" class="hero"></main>
+
+    <section class="shopping-categories">
+      <img class="men-img" src="images/categories/shop_men.jpg" alt="" />
+      <div class="shopping-categories__content men-content">
+        <h2>MEN</h2>
+        <button>Shop Now</button>
+      </div>
+      <div class="shopping-categories__content women-content">
+        <h2>Women</h2>
+        <button>Shop Now</button>
+      </div>
+      <img class="women-img" src="images/categories/shop_girls.jpg" alt="" />
+      <img class="kids-img" src="images/categories/shop_kids.jpg" alt="" />
+      <div class="shopping-categories__content kids-content">
+        <h2>Kids</h2>
+        <button>Shop Now</button>
+      </div>
+      <div class="shopping-categories__content new-collection-content">
+        <h2>NEW collection</h2>
+        <button>View More</button>
+      </div>
+      <img
+        class="new-collection-image"
+        src="images/categories/new_collection.jpg"
+        alt=""
+      />
+      <div class="sale">
+        <p>SALE</p>
+        <p>SALE</p>
+        <p>SALE</p>
+      </div>
+      <div class="shopping-categories__content sale-content">
+        <h2>SALE</h2>
+        <button>View More</button>
+      </div>
+      <div class="shopping-categories__content blog-content">
+        <h2>blog</h2>
+        <button id="read-blog-btn">Read More</button>
+      </div>
+      <img class="blog-img" src="images/categories/blog-img.jpg" alt="" />
+    </section>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <ul class="footer-main__content">
+          <li><a href="">CONTACT</a></li>
+          <li><a href="">F.A.Q</a></li>
+          <li><a href="">SHIPPING</a></li>
+          <li><a href="">SAMPLE POLICY</a></li>
+          <li><a href="">PAYMENT</a></li>
+          <li><a href="">TERMS & CONDITONS</a></li>
+        </ul>
+        <form action="" class="footer-main__form">
+          <h1>SIGN UP FOR NEWSTELLER</h1>
+          <div class="newsteller">
+            <input type="email" class="input" placeholder="EMAIL" />
+            <button type="submit">SUBSCRIBE</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer-second">
+        <div class="footer-second__content">
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+        </div>
+        <p>2024 HappyPairs. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

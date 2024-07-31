@@ -1,0 +1,172 @@
+.banner {
+  filter: hue-rotate(-90deg) saturate(150%) brightness(90%);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+
+.filters label,
+.filters select {
+  font-size: 14px;
+  padding: 4px;
+}
+
+.products {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 3rem 0;
+}
+
+.products-info {
+  position: relative;
+  list-style: none;
+  width: 100%;
+}
+
+.products-info img {
+  width: 100%;
+}
+
+.products-info__backdrop {
+  background-color: #d84126;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 85%;
+  z-index: 2;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.products-info__backdrop.active {
+  display: flex;
+}
+
+.products-info__backdrop h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.products-info__backdrop p {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.products-info__backdrop button {
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+  z-index: 3;
+}
+
+.products-info__backdrop button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .products-info__backdrop {
+    padding: 2rem 1rem;
+    
+  }
+  .products-info__backdrop h1 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  .products-info__backdrop p {
+    font-size: 1.2rem;
+  }
+  
+  .products-info__backdrop button {
+    font-size: 1.1rem;
+    
+  }
+}
+
+@media(max-width: 900px) {
+  .products-info__backdrop {
+    padding: 1.5rem 1rem;
+    
+  }
+  .products-info__backdrop h1 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  
+  .products-info__backdrop p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .filters-content {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filters-content select {
+    width: 11rem;
+  }
+
+  .products {
+    width: 90%;
+    gap: 30px;
+  }
+
+  .products-info__backdrop h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .products-info__backdrop p {
+    font-size: 16px;
+  }
+  
+  .products-info__backdrop button {
+    padding: 4px 6px;
+    font-size: 14px;
+    border: 1px solid white;
+  }
+}
+
+@media (max-width: 480px) {
+  .filters-content {
+    width: 60%;
+  }
+
+  .products {
+    width: calc(100% - 40px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 2rem 0;
+  }
+}

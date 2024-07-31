@@ -1,0 +1,639 @@
+[
+  {
+    "id": 1,
+    "name": "Sock Name1",
+    "img": "../images/products/1.jpg",
+    "small-img": "../images/products/5.jpg",
+    "price": 4,
+    "color": [
+      "orange"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sock Name2",
+    "img": "../images/products/2.jpg",
+    "price": 5,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sock Name3",
+    "img": "../images/products/3.jpg",
+    "price": 30,
+    "color": [
+      "orange",
+      "white",
+      "pink",
+      "white",
+      "black"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sock Name4",
+    "img": "../images/products/4.jpg",
+    "price": 4,
+    "color": [
+      "black"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sock Name5",
+    "img": "../images/products/5.jpg",
+    "price": 5,
+    "color": [
+      "purple"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sock Name6",
+    "img": "../images/products/6.jpg",
+    "price": 5,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sock Name7",
+    "img": "../images/products/7.jpg",
+    "price": 4,
+    "color": [
+      "black"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sock Name8",
+    "img": "../images/products/8.jpg",
+    "price": 5,
+    "color": [
+      "brown"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sock Name9",
+    "img": "../images/products/9.jpg",
+    "price": 5,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sock Name10",
+    "img": "../images/products/10.jpg",
+    "price": 4,
+    "color": [
+      "white"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Sock Name11",
+    "img": "../images/products/11.jpg",
+    "price": 6,
+    "color": [
+      "yellow"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sock Name12",
+    "img": "../images/products/12.jpg",
+    "price": 4,
+    "color": [
+      "white"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Sock Name13",
+    "img": "../images/products/13.jpg",
+    "price": 5,
+    "color": [
+      "yellow"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Sock Name14",
+    "img": "../images/products/14.jpg",
+    "price": 5,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sock Name15",
+    "img": "../images/products/15.jpg",
+    "price": 6,
+    "color": [
+      "black"
+    ],
+    "gender": [
+      "unisex"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Sock Name16",
+    "img": "../images/products/16.jpg",
+    "price": 5,
+    "color": [
+      "orange"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sock Name17",
+    "img": "../images/products/17.jpg",
+    "price": 15,
+    "color": [
+      "blue",
+      "yellow",
+      "purple"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Sock Name18",
+    "img": "../images/products/18.jpg",
+    "price": 5,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Sock Name19",
+    "img": "../images/products/19.jpg",
+    "price": 4,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Sock Name20",
+    "img": "../images/products/20.jpg",
+    "price": 3,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Sock Name21",
+    "img": "../images/products/21.jpg",
+    "price": 4,
+    "color": [
+      "pink"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Sock Name22",
+    "img": "../images/products/22.jpg",
+    "price": 3,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "unisex"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Sock Name23",
+    "img": "../images/products/23.jpg",
+    "price": 20,
+    "color": [
+      "green",
+      "orange",
+      "blue",
+      "white"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Sock Name24",
+    "img": "../images/products/24.jpg",
+    "price": 8,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Sock Name25",
+    "img": "../images/products/25.jpg",
+    "price": 21,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sock Name26",
+    "img": "../images/products/26.jpg",
+    "price": 21,
+    "color": [
+      "black",
+      "orange",
+      "grey",
+      "blue",
+      "black"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Sock Name27",
+    "img": "../images/products/27.jpg",
+    "price": 8,
+    "color": [
+      "purple"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Sock Name28",
+    "img": "../images/products/28.jpg",
+    "price": 8,
+    "color": [
+      "grey",
+      "orange"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Sock Name29",
+    "img": "../images/products/29.jpg",
+    "price": 8,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Sock Name30",
+    "img": "../images/products/30.jpg",
+    "price": 10,
+    "color": [
+      "blue"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Sock Name31",
+    "img": "../images/products/31.jpg",
+    "price": 10,
+    "color": [
+      "blue",
+      "yellow"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Sock Name32",
+    "img": "../images/products/32.jpg",
+    "price": 20,
+    "color": [
+      "black"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Sock Name33",
+    "img": "../images/products/33.jpg",
+    "price": 7,
+    "color": [
+      "blue",
+      "black"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Sock Name34",
+    "img": "../images/products/34.jpg",
+    "price": 8,
+    "color": [
+      "orange",
+      "black"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Sock Name35",
+    "img": "../images/products/35.jpg",
+    "price": 8,
+    "color": [
+      "black"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Sock Name36",
+    "img": "../images/products/36.jpg",
+    "price": 5,
+    "color": [
+      "white"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Sock Name37",
+    "img": "../images/products/37.jpg",
+    "price": 5,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Sock Name38",
+    "img": "../images/products/38.jpg",
+    "price": 5,
+    "color": [
+      "pink"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Sock Name39",
+    "img": "../images/products/39.jpg",
+    "price": 5,
+    "color": [
+      "orange"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Sock Name40",
+    "img": "../images/products/40.jpg",
+    "price": 15,
+    "color": [
+      "orange",
+      "white",
+      "pink",
+      "green"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Sock Name41",
+    "img": "../images/products/41.jpg",
+    "price": 10,
+    "color": [
+      "white"
+    ],
+    "gender": [
+      "female"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Sock Name42",
+    "img": "../images/products/42.jpg",
+    "price": 8,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "male"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Sock Name43",
+    "img": "../images/products/43.jpg",
+    "price": 20,
+    "color": [
+      "yellow",
+      "green",
+      "black",
+      "blue"
+    ],
+    "gender": [
+      "kid"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Sock Name44",
+    "img": "../images/products/44.jpg",
+    "price": 40,
+    "color": [
+      "green",
+      "red",
+      "black",
+      "white"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Sock Name45",
+    "img": "../images/products/45.jpg",
+    "price": 10,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Sock Name46",
+    "img": "../images/products/46.jpg",
+    "price": 10,
+    "color": [
+      "red"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Sock Name47",
+    "img": "../images/products/47.jpg",
+    "price": 10,
+    "color": [
+      "white"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Sock Name48",
+    "img": "../images/products/48.jpg",
+    "price": 10,
+    "color": [
+      "green"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Sock Name49",
+    "img": "../images/products/49.jpg",
+    "price": 10,
+    "color": [
+      "black"
+    ],
+    "gender": [
+      "unisex",
+      "male",
+      "female"
+    ]
+  }
+]
